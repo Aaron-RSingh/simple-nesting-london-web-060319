@@ -130,7 +130,7 @@ def adding_to_dennis
      }
      #a = { 21 => { 3 => {:x => 5, :y => 6}}}
      #a[21].update({ 4=>{:x => 8, :y => 7} }) 
-programmer_hash[:dennis_ritchie][:languages] = ["Assembly"]
+programmer_hash[:dennis_ritchie][:languages] =  {"Assembly"}
 
 return programmer_hash
 
