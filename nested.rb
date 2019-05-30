@@ -128,6 +128,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+     a[21].update({ 4=>{:x => 8, :y => 7} }) 
 programmer_hash[:dennis_ritchie]
 
 return programmer_hash
