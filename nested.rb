@@ -128,8 +128,9 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-     a[21].update({ 4=>{:x => 8, :y => 7} }) 
-programmer_hash[:dennis_ritchie]
+     #a = { 21 => { 3 => {:x => 5, :y => 6}}}
+     #a[21].update({ 4=>{:x => 8, :y => 7} }) 
+programmer_hash[:dennis_ritchie][:languages].update("Assembly")
 
 return programmer_hash
 
